@@ -1,4 +1,4 @@
 {
-    "apache": "",
+    "apache": "/etc/apache2/sites-available/",
     "nginx": ""
 }

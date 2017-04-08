@@ -48,6 +48,18 @@ program
 });
 
 /*
+* Emyll Create VHosts from script
+*/
+
+program
+   .command('screate <domain> <docroot> <server>')
+   .description('Create Vhosts for Apache or Nginx'.white)
+   .action(function(domain, docroot, server){
+   		emyll.createVhosts(domain, docroot, server);
+
+ });
+	
+/*
 * Emyll Create VHosts
 */
 
