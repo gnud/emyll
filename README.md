@@ -46,6 +46,23 @@ Restarting <server>
 Vhost <domain> created successfully!
 ```
 
+###### Create Vhosts
+Create Apache or Nginx vhosts from a script
+
+`emyll screate $(domain) $(documentRoot) $(server)`
+
+returns
+
+```shell
+Creating Vhost <domain>
+[sudo] password for chris: 
+Enable Vhost <domain>.conf
+Adding <domain> in Hosts
+[sudo] password for chris: 
+Restarting <server>
+Vhost <domain> created successfully!
+```
+
 ###### Remove Vhosts
 Remove Apache or Nginx vhosts
 
@@ -102,3 +119,4 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
